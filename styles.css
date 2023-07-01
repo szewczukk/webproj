@@ -10,9 +10,6 @@ html {
 body {
     box-sizing: border-box;
     font-family: Montserrat;
-}
-
-body {
     margin: 0;
 }
 
@@ -174,6 +171,7 @@ label {
 }
 
 textarea {
+    font-family: Montserrat;
     resize: none;
 }
 
@@ -181,6 +179,23 @@ footer {
     background-color: #555555;
     color: #FAFAFA;
     padding: 2rem;
+}
+
+input,
+textarea {
+    padding: 0.1rem 1rem;
+    background-color: #FAFAFA;
+    border: 1px solid #AAA;
+    font-size: 1rem;
+    outline: none;
+    appearance: none;
+    border-radius: 2px;
+}
+
+input:focus,
+textarea:focus {
+    border: 1px solid #111;
+    outline: 1px solid #111;
 }
 
 @media screen and (max-width: 900px) {
