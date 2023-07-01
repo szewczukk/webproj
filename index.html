@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>John Ernst Steinbeck</title>
+
+    <link rel="stylesheet" href="./assets/reset.css" />
+    <link rel="stylesheet" href="./styles.css" />
+</head>
+
+<body>
+    <div class="hero">
+        <h1>John Ernst Steinbeck</h1>
+    </div>
+    <nav>
+        <ul>
+            <a href="#about-me">
+                <li>
+                    About me
+                </li>
+            </a>
+            <a href="#my-books">
+                <li>
+                    My books
+                </li>
+            </a>
+            <a href="#contact-me">
+                <li>
+                    Contact me
+                </li>
+            </a>
+        </ul>
+    </nav>
+    <section id="about-me">
+        <h2>About me</h2>
+        <div class="two-columns">
+            <p>
+                <strong>John Ernst Steinbeck</strong> (/ˈstaɪnbɛk/; February 27, 1902 – December 20, 1968) was an
+                American writer. He won
+                the
+                1962 Nobel Prize in Literature "for his realistic and imaginative writings, combining as they do
+                sympathetic
+                humor and keen social perception". He has been called "a giant of American letters."
+            </p>
+            <img src="assets/steinbeck.jpg" alt="This is a picture of me" />
+        </div>
+        <p>
+            During his writing career, he authored 33 books, with one book coauthored alongside Edward Ricketts,
+            including 16 novels, six non-fiction books, and two collections of short stories. He is widely known for the
+            comic novels Tortilla Flat (1935) and Cannery Row (1945), the multi-generation epic East of Eden (1952), and
+            the novellas The Red Pony (1933) and Of Mice and Men (1937). The Pulitzer Prize–winning The Grapes of Wrath
+            (1939) is considered Steinbeck's masterpiece and part of the American literary canon. In the first 75
+            years after it was published, it sold 14 million copies.
+        </p>
+    </section>
+    <section id="my-books">
+        <h2>My books</h2>
+        <div class="books">
+            <article>
+                <img src="assets/grapes-of-wrath.jpg" alt="Grapes of Wrath book cover" />
+                <h3>Grapes of Wrath</h3>
+                <p>
+                    Set during the Great Depression, the novel focuses on the Joads, a poor family of tenant farmers
+                    driven from their Oklahoma home by drought, economic hardship, agricultural industry changes, and
+                    bank foreclosures forcing tenant farmers out of work.
+                </p>
+            </article>
+            <article>
+                <img src="assets/mice-and-men.jpg" alt="Of Mice and Men book cover" />
+                <h3>Of Mice and Men</h3>
+                <p>
+                    Published in 1937, it narrates the experiences of George Milton and Lennie Small, two displaced
+                    migrant ranch workers, who move from place to place in California in search of new job opportunities
+                    during the Great Depression in the United States.
+                </p>
+            </article>
+            <article>
+                <img src="assets/east-of-eden.jpg" alt="East of Eden book cover" />
+                <h3>East of Eden</h3>
+                <p>
+                    East of Eden brings to life the intricate details of two families, the Trasks and the Hamiltons, and
+                    their interwoven stories. The Hamilton family in the novel is said to be based on the real-life
+                    family of Samuel Hamilton, Steinbeck's maternal grandfather.
+                </p>
+            </article>
+        </div>
+    </section>
+    <section id="contact-me">
+        <h2>Contact me</h2>
+        <form>
+            <div class="form-grid">
+                <label id="name-field">
+                    Your name
+                    <input type="text" required />
+                </label>
+                <label id="email-field">
+                    Your e-mail
+                    <input type="email" required />
+                </label>
+                <label id="message-field">
+                    Your message
+                    <textarea rows="10" cols="50"></textarea>
+                </label>
+            </div>
+            <input type="submit" value="Send" id="submit-button" />
+        </form>
+    </section>
+    <footer>
+        <h2>Created by Dmitro Szewczuk 2023</h2>
+    </footer>
+    <script src="./index.js"></script>
+</body>
+
+</html>
